@@ -8,3 +8,6 @@
 .contacts-list:hover {
   color: tomato;
 }
+.contacts-list:focus {
+  color: green;
+}
