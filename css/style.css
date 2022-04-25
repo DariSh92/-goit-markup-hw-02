@@ -1,1 +1,10 @@
+.menu-link {
+  color: #000;
+}
 
+.menu-link.active {
+  color: #2196f3;
+}
+.contacts-list:hover {
+  color: tomato;
+}
