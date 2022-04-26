@@ -1,3 +1,13 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.logo {
+  color: #000000;
+}
+.logo-part {
+  color: #2196f3;
+}
 .menu-link {
   color: #000;
 }
@@ -5,9 +15,10 @@
 .menu-link.active {
   color: #2196f3;
 }
-.contacts-list:hover {
-  color: tomato;
+.contacts-list {
+  color: #757575;
 }
+.contacts-list:hover,
 .contacts-list:focus {
-  color: green;
+  color: tomato;
 }
