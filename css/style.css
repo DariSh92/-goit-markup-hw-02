@@ -1,68 +1,69 @@
-
-
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --filters-color: #f5f4fa;
+}
 
 body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em; 
 }
+
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-size: 26px;
-  line-height: 31px;
 }
-
 .logo-part {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .list {
   list-style: none;
 }
 .menu-link {
-  color: #000;
-  font-family:Roboto; 
-  font-size: 14px;
-  line-height: 16px;
-
+  color: var(--primary-text-color);
+  font-family: Roboto;
 }
 
 .menu-link.active {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts-list {
-    font-family:Roboto; 
-    font-size: 14px;
-    line-height: 16px;
-    color: #757575;
+  font-family: Roboto;
+  color: var(--title-text-color);
 }
 .contacts-list:hover,
 .contacts-list:focus {
   color: tomato;
 }
+
 .main-filter-button {
-  color: #ffffff;
-  background-color: #2196f3;
+  font-family: Roboto;
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
+
 .main-filter-button:hover,
-.main-filter-button:focus{
-    color: tomato;
-}
+.main-filter-button:focus {
+  color: tomato;
 }
 .filter-button {
-  color: #212121;
-  background-color: #f5f4fa;
+  font-family: Roboto;
+  color: var(--primary-text-color);
+  background-color: var(--filters-color);
 }
 .projects-title {
-  color: #212121;
+  font-family: Roboto;
+  color: var(--primary-text-color);
 }
 .projects-sections {
-  color: #757575;
+  color: var(--title-text-color);
 }
 .contacts-item {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .logo-part-one {
-  color: #ffffff;
+  color: var(--white-color);
 }
