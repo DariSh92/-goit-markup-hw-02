@@ -22,13 +22,20 @@ body {
 }
 .menu-link {
   color: #000;
+  font-family:Roboto; 
+  font-size: 14px;
+  line-height: 16px;
+
 }
 
 .menu-link.active {
   color: #2196f3;
 }
 .contacts-list {
-  color: #757575;
+    font-family:Roboto; 
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
 }
 .contacts-list:hover,
 .contacts-list:focus {
