@@ -8,6 +8,9 @@ body {
 .logo-part {
   color: #2196f3;
 }
+.list {
+  list-style: none;
+}
 .menu-link {
   color: #000;
 }
@@ -21,4 +24,12 @@ body {
 .contacts-list:hover,
 .contacts-list:focus {
   color: tomato;
+}
+.main-filter-button {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.filter-button {
+  color: #212121;
+  background-color: #f5f4fa;
 }
