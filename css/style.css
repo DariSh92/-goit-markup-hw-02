@@ -29,6 +29,11 @@ body {
   color: #ffffff;
   background-color: #2196f3;
 }
+.main-filter-button:hover,
+.main-filter-button:focus{
+    color: tomato;
+}
+}
 .filter-button {
   color: #212121;
   background-color: #f5f4fa;
