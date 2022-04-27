@@ -32,7 +32,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14px;
 }
 
 .menu-link.active {
@@ -41,7 +41,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14px;
 }
 .contacts-list {
   font-family: Roboto;
@@ -55,11 +55,16 @@ body {
 .contacts-list:focus {
   color: tomato;
 }
-
+button {
+  font-family: inherit;
+}
 .main-filter-button {
   font-family: Roboto;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .main-filter-button:hover,
@@ -70,6 +75,9 @@ body {
   font-family: Roboto;
   color: var(--primary-text-color);
   background-color: var(--filters-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 .projects-title {
   font-family: Roboto;
