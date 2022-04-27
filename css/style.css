@@ -32,7 +32,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 
 .menu-link.active {
@@ -49,7 +49,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
 }
 .contacts-list:hover,
 .contacts-list:focus {
@@ -64,7 +64,8 @@ button {
   background-color: var(--accent-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  border-radius: 4px;
 }
 
 .main-filter-button:hover,
@@ -77,33 +78,34 @@ button {
   background-color: var(--filters-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  border-radius: 4px;
 }
 .projects-title {
   font-family: Roboto;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 .projects-sections {
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 }
 .contacts-item {
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2;
 }
 .logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo-part-one {
   color: var(--primary-white-color);
@@ -114,5 +116,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 2;
 }
+
+/* стили css для index.thml */
