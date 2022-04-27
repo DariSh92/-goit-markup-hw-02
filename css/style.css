@@ -15,7 +15,6 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -28,7 +27,6 @@ body {
 }
 .menu-link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -36,14 +34,12 @@ body {
 
 .menu-link.active {
   color: var(--accent-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
 }
 .contacts-list {
   color: var(--title-text-color);
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -85,13 +81,11 @@ button {
 }
 .projects-sections {
   color: var(--title-text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
 }
 .contacts-item {
   color: var(--primary-white-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 2;
 }
@@ -106,7 +100,6 @@ button {
 }
 .contacts-link-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
   font-size: 14px;
   line-height: 2;
 }
