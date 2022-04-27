@@ -28,7 +28,6 @@ body {
 }
 .menu-link {
   color: var(--primary-text-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -37,14 +36,12 @@ body {
 
 .menu-link.active {
   color: var(--accent-color);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
 }
 .contacts-list {
-  font-family: Roboto;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
@@ -59,7 +56,6 @@ button {
   font-family: inherit;
 }
 .main-filter-button {
-  font-family: Roboto;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-weight: 500;
@@ -73,7 +69,6 @@ button {
   color: tomato;
 }
 .filter-button {
-  font-family: Roboto;
   color: var(--primary-text-color);
   background-color: var(--filters-color);
   font-weight: 500;
@@ -82,7 +77,6 @@ button {
   border-radius: 4px;
 }
 .projects-title {
-  font-family: Roboto;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -112,7 +106,6 @@ button {
 }
 .contacts-link-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
