@@ -129,3 +129,12 @@ button {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
+.order-button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background-color: #2196f3;
+  color: var(--primary-white-color);
+  border-radius: 4px;
+}
