@@ -36,12 +36,19 @@ body {
   line-height: 1.14;
   text-decoration: none;
 }
-
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
 .menu-link.active {
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+}
+.menu-link.active:hover,
+.menu-link.active:focus {
+  color: var(--accent-color);
 }
 .contacts {
   background-color: var(--main-bcg-color);
@@ -56,12 +63,13 @@ body {
 }
 .contacts-list:hover,
 .contacts-list:focus {
-  color: blue;
+  color: var(--accent-color);
 }
 
 .main-filter-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -71,15 +79,21 @@ body {
 
 .main-filter-button:hover,
 .main-filter-button:focus {
-  color: blue;
+  color: var(--accent-color);
 }
+
 .filter-button {
   color: var(--primary-text-color);
   background-color: var(--filters-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--accent-color);
 }
 .main-section {
   background-color: var(--main-bcg-color);
@@ -138,6 +152,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
 }
@@ -157,6 +172,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
