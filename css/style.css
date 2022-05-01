@@ -79,7 +79,7 @@ body {
 
 .main-filter-button:hover,
 .main-filter-button:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 .filter-button {
@@ -93,7 +93,8 @@ body {
 }
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .main-section {
   background-color: var(--main-bcg-color);
